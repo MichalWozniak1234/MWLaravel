@@ -8,7 +8,7 @@ class InternalEventsService
 {
 public function getNewestEvents() : Collection
 {
-    return InternalEvent::all();
+    return InternalEvent::orderBy('Title')->get();
 }
 
 public function addToDB(Request $request) 
