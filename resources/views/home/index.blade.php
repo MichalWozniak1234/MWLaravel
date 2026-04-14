@@ -1,6 +1,6 @@
 @extends("main")
-@section("content") 
+@section("content")
 
-<a href="/internal-events"> Wydarzenia wewnętrzne </a>
+<a href="/internal-events"> Wydarzenia wewnętrznee </a>
 
 @endsection
